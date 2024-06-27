@@ -1,11 +1,17 @@
 Dependency: 
-  1. yolov8s model
-  2. sample video file
+  1. opencv
+  2. yolov8s model
+  3. sample video file
 
-Run:
+Build:
 
-  ```mkdri build```
+  `mkdir build`
   
   `cd build`
   
   `cmake ..`
+  
+  `make`
+
+Execution:
+  `./object_detection_v8`
